@@ -4,6 +4,21 @@ A beginner-friendly, **traditional machine learning classification** project tha
 
 > **Note:** The screenshots below show the project running in Streamlit. Segment labels are derived from documented RFM-style rules, so the classifier learns to reproduce those labels from customer features. This is an educational demonstration, not a claim that the labels are independently verified customer value categories.
 
+## Dataset
+
+This project uses the Online Retail II dataset from the
+UCI Machine Learning Repository.
+
+Download the dataset from the official source:
+
+https://archive.ics.uci.edu/dataset/502/online+retail+ii
+
+After downloading, extract the Excel file and place it inside:
+
+data/online_retail_II.xlsx
+
+The dataset is not included in this repository because of its file size.
+
 ## Deployed / Streamlit screenshots
 
 ### 1. Dashboard
