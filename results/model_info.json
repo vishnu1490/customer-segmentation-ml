@@ -1,0 +1,23 @@
+{
+    "selected_model": "XGBoost",
+    "selection_metric": "Validation macro F1-score",
+    "features": [
+        "RecencyDays",
+        "PurchaseFrequency",
+        "TotalSpending",
+        "AverageOrderValue",
+        "TotalQuantity",
+        "AverageItemsPerInvoice"
+    ],
+    "target": "CustomerSegment",
+    "class_names": [
+        "High Value",
+        "Low Engagement",
+        "Regular"
+    ],
+    "label_definition": "RFM-derived categories: High Value for RFM score >= 12; Regular for score >= 8 and < 12; Low Engagement otherwise.",
+    "dataset_is_real_transaction_data": true,
+    "train_records": 4114,
+    "validation_records": 882,
+    "test_records": 882
+}
